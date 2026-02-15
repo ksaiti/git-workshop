@@ -17,3 +17,14 @@ print("\nDescriptive Statistics:")
 print(f"Mean: {mean_value:.2f}")
 print(f"Variance: {variance_value:.2f}")
 print(f"Standard Deviation: {std_dev_value:.2f}")
+
+
+median_value = statistics.median(data)
+min_value = min(data)
+max_value = max(data)
+count_value = len(data)
+
+print(f"Count: {count_value}")
+print(f"Min: {min_value}")
+print(f"Max: {max_value}")
+print(f"Median: {median_value:.2f}")
