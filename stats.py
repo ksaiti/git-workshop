@@ -28,3 +28,9 @@ print(f"Count: {count_value}")
 print(f"Min: {min_value}")
 print(f"Max: {max_value}")
 print(f"Median: {median_value:.2f}")
+
+range_value = max(data) - min(data)
+total_value = sum(data)
+
+print(f"Range: {range_value}")
+print(f"Total: {total_value:.2f}")
