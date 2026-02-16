@@ -34,3 +34,5 @@ total_value = sum(data)
 
 print(f"Range: {range_value}")
 print(f"Total: {total_value:.2f}")
+
+### now I need to visualize the descriptive statistics 
